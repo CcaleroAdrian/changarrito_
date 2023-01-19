@@ -63,8 +63,10 @@ export default function ModalFoot() {
 
               <div className="shadow-text fw-bold mx-2 "  style={{fontSize:'20px'}}>4.2</div>
             </Stack>
-            <Card.Text className={work_sans.className} style={{ margin: '30px' }}>
+            <Card.Text className={work_sans.className} style={{ margin: '20px' }}>
+              <div style={{fontWeight:'600'}}>
               Hamburguesa con carne de res angus, salsa bbq cerveza, tocino, echalote, cebolla frita, mix de queso, chile serrano, chipotle mayo.
+              </div>
             </Card.Text>
             <Stack direction="horizontal" gap={1}>
               <div>
