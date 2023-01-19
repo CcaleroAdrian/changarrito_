@@ -7,6 +7,7 @@ import { AiOutlineStar } from 'react-icons/ai';
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { IoAddOutline } from 'react-icons/io5';
+import { IoTrashOutline } from 'react-icons/io5';
 import { IconContext } from 'react-icons/lib';
 import { love_ya_like_a_sister, work_sans } from './fonts';
 
@@ -76,7 +77,7 @@ export default function ModalFoot() {
                 <button className='button-card-right '>
                   <div className=' d-flex justify-content-around'>
                     <IconContext.Provider value={{ size: '25px', color: 'red' }} >
-                      <AiOutlineShoppingCart style={{ marginTop: '10%' }} />
+                      <IoTrashOutline style={{ marginTop: '10%' }} />
                       <div><p className='fw-bold' style={{fontSize:'20px'}}>1</p></div>
                       <IoAddOutline style={{ marginTop: '10%', color: 'red' }} />
                     </IconContext.Provider>
