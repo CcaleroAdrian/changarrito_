@@ -5,6 +5,7 @@ import Stack from 'react-bootstrap/Stack';
 import { love_ya_like_a_sister, work_sans } from './fonts';
 import ModalFoot from './ModalFoot';
 import Footer from './Footer';
+import CardInfo from './CardInfo';
 
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
       </p>
       {/* componente ModalFoot */}
       <ModalFoot></ModalFoot>
+      {/* componente de card de mas informacio */}
+      <CardInfo></CardInfo>
       {/* componente Footer */}
       <Footer></Footer>
     </div>

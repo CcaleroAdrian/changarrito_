@@ -35,7 +35,9 @@ export default function ModalFoot() {
           <Card.Body>
             <Card.Title >
               <Stack direction="horizontal" gap={2}>
-                <div className='title-card'>Hamburguesa Texas</div>
+                <div className={work_sans.className}>
+                <p className='title-card'>Hamburguesa Texas</p>
+                </div>
                 <div className="ms-auto shadow-text fw-bold" >$205.00</div>
               </Stack>
             </Card.Title>
