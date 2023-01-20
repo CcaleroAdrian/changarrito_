@@ -38,8 +38,8 @@ export function Login() {
 
                     <Stack direction="horizontal" gap={1}>
                         <div className='title-card'>
-                            <h1>Regístrate aquí</h1>
-                            <h1>Olvidaste tu contraseña?</h1>
+                            <h1 className={love_ya_like_a_sister.className}>Regístrate aquí</h1>
+                            <h1 className={love_ya_like_a_sister.className}>Olvidaste tu contraseña?</h1>
                         </div>
                         <div className=' ms-auto'>
                             <Button className={work_sans.className} variant='person1' style={{ borderradius: '18px', color: '#FFFFFF', fontWeight: 'bolder', fontSize: '19px', padding: '15px', width: '200px' }}>
