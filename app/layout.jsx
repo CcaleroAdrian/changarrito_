@@ -1,4 +1,6 @@
 import "./custom.scss";
+import Footer from "./footer";
+import Menu from "./menu";
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +10,13 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+      <Menu/>
+        {children}
+      
+      <Footer/>
+      </body>
+      
     </html>
   )
 }
