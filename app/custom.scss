@@ -6,7 +6,8 @@
 
 #content {
     /* ... */
-    padding-bottom: 81px; /* El tamaño del footer para evitar el sobreposicionamiento */
+    padding-bottom: 81px;
+    /* El tamaño del footer para evitar el sobreposicionamiento */
 }
 
 /* make the customizations */
@@ -20,6 +21,8 @@ $theme-colors: (
     "primary": #fe6763,
     "secondary": #ff8a84,
     "person":#FC2B2B,
+    "person1":#ff1745b7,
+
 
 );
 
@@ -101,6 +104,28 @@ footer {
 }
 
 /* fin de estilos para CardInfo */
+
+/* inicio de estilos para login */
+
+
+.titulo-text {
+    font-style: normal;
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.placerr{
+    font-size: 70px;
+}
+
+/* fin de estilos para login */
 
 
 
